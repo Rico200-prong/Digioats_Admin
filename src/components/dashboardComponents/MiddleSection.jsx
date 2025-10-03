@@ -34,7 +34,7 @@ const MiddleSection = () => {
   ];
 
   return (
-    <section className=" flex flex-col gap-y-[20px] my-[30px] px-[25px] 2xl:px-[300px] ">
+    <section className=" flex flex-col gap-y-[20px] my-[30px] px-[25px] 2xl:px-[300px]  ">
       <div className="bg-white shadow-md rounded-2xl p-4 shadow-blue-950 border border-solid ">
         <h2 className="text-lg font-semibold mb-4">
           📈 Monthly Applications Trendss
