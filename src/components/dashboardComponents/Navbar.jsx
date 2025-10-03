@@ -5,20 +5,20 @@ import Text from "./../../context/Text";
 
 const Navbar = () => {
   return (
-    <nav className=" mt-[30px] mb-[15px] flex items-center justify-between ">
+    <nav className="  mb-[15px] flex items-center justify-between 2xl:px-[300px] px-[25px] py-[20px] bg-[#2563eb] shadow shadow-blue-950  ">
       <div className="font-[600]">
         <span className="text-[26px]">DigiOats</span>
-        <span className="text-[#2563eb] text-[26px] ml-[10px]">Admin</span>
+        <span className="text-white text-[26px] ml-[10px]">Admin</span>
       </div>
       <h3 className="text-[26px] font-[600]">Dashboard</h3>
       <div className="flex items-center gap-x-[15px]">
-        <Bell color="#2563eb" fill="#2563eb" />
-        <CircleUserRound />
+        <Bell color="white" fill="#2563eb" />
+        <CircleUserRound color="white" />
         <div>
-          <Subheading subHeading={"Name"} />
+          <Subheading subHeading={"Name"} className={"font-semibold"} />
           <Text text={"Administrator"} />
         </div>
-        <button className="border border-solid px-[15px] py-[10px] bg-[#2563eb] text-white rounded-[10px] font-[400] hover:bg-[#3b82f6]">
+        <button className=" px-[15px] py-[10px] bg-[red] text-white font-semibold hover:scale-105 ">
           Log Out
         </button>
       </div>

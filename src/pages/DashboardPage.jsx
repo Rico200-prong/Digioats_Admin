@@ -7,16 +7,12 @@ import BottomSection from "./../components/dashboardComponents/BottomSection";
 
 const DashboardPage = () => {
   return (
-    <main className="mx-[300px] ">
+    <main className="bg-[#dfdfe4]">
       <Navbar />
-      <section className="flex items-start ">
-        <SideBar />
-        <div className="bg-[#f3f4f6] px-[30px] py-[30px] h-screen w-full">
-          <Widgets />
-          <MiddleSection />
-          <BottomSection />
-        </div>
-      </section>
+      <SideBar />
+      <Widgets />
+      <MiddleSection />
+      <BottomSection />
     </main>
   );
 };
